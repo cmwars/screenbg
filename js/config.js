@@ -9,7 +9,7 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "reddragon.jpg";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -50,7 +50,6 @@ var l_background = "dropsflares.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"reddragon.jpg"
 ];
 /*Random background images order?*/
 var l_bgImagesRandom = true;
@@ -83,7 +82,7 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{youtube: "JSY6vBPunpY", name: "NCS-Hellcat"},
-	{youtube: "_XspQUK22-U", name: "NCS-Everything"},
+	{youtube: "_XspQUK22-U", name: "NCS-Everything"}
 ];
 
 /*Random music order?*/
