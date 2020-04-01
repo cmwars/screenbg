@@ -9,7 +9,7 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = ;
+var l_serverImage = "reddragon.jpg";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -50,10 +50,10 @@ var l_background = "dropsflares.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	C:\darkrpserver\garrysmod\addons\sleekLoad2\backgrounds\images\reddragon.jpg
+	"reddragon.jpg"
 ];
 /*Random background images order?*/
-var l_bgImagesRandom = false;
+var l_bgImagesRandom = true;
 
 /*(Image-background only)
 Delay between background images changes
@@ -70,7 +70,7 @@ var l_bgOverlay = true;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 50;
+var l_bgDarkening = 0;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -83,8 +83,7 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{youtube: "JSY6vBPunpY", name: "NCS-Hellcat"},
-	{youtube: "zyXmsVwZqX4", name: "NCS-Why We Lose"},
-	{youtube: "_XspQUK22-U", name: "NCS-Everything"}
+	{youtube: "_XspQUK22-U", name: "NCS-Everything"},
 ];
 
 /*Random music order?*/
